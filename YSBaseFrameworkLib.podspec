@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YSBaseFrameworkLib"
-  s.version      = "2.1.4"
+  s.version      = "2.1.5"
   s.summary      = "wch--A short description of ysbaseframeworklib."
 
   # This description is used to generate tags and improve search results.
