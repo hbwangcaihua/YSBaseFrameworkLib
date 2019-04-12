@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YSBaseFrameworkLib"
-  s.version      = "2.0.1"
+  s.version      = "2.0.2"
   s.summary      = "wch--A short description of ysbaseframeworklib."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
     #s.source_files  = "YSBaseFrameworkLib/lib", , "YSBaseFrameworkLib/lib/**/*.{h,m,c,a}"
 
     s.subspec 'Frameworks' do |ss|
-    	ss.source_files = "YSBaseFrameworkLib/lib", "YSBaseFrameworkLib/lib/Frameworks/**/*.{h,m,c,a}"
+    	ss.source_files = "YSBaseFrameworkLib/lib", "YSBaseFrameworkLib/lib/Frameworks/**/*.{h,m,c}"
     end
 
   #s.source_files  = "YSBaseFramework/Base", "YSBaseFramework/Base/**/*.{h,m,c}"
@@ -115,6 +115,8 @@ Pod::Spec.new do |s|
   #                'YSBaseFramework/Base/Vendor/HUD/LCProgressHUD/LCProgressHUD.bundle']
 
   s.resources = "YSBaseFrameworkLib/lib/YSLCProgressHUD.bundle"
+
+  s.vendored_libraries = "YSBaseFrameworkLib/lib/Frameworks/libYSBaseFrameworkLib.a"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
