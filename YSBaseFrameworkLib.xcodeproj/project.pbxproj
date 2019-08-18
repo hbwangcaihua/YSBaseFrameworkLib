@@ -63,6 +63,8 @@
 		CD06EEB9225F858A00165111 /* YSKeyChain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD06EE7A225F827B00165111 /* YSKeyChain.h */; };
 		CD06EEBA225F858A00165111 /* YSLCProgressHUD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD06EE7F225F827B00165111 /* YSLCProgressHUD.h */; };
 		CD06EEBB225F858A00165111 /* YSMBProgressHUD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD06EE83225F827B00165111 /* YSMBProgressHUD.h */; };
+		CDF47C29230A18A7008D4293 /* UIView+YSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47C27230A18A6008D4293 /* UIView+YSUtility.m */; };
+		CDF47C2A230A18EC008D4293 /* UIView+YSUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDF47C28230A18A6008D4293 /* UIView+YSUtility.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +74,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				CDF47C2A230A18EC008D4293 /* UIView+YSUtility.h in CopyFiles */,
 				CD06EEA0225F858A00165111 /* UIImage+YSResize.h in CopyFiles */,
 				CD06EEA1225F858A00165111 /* UIImage+YSOrientation.h in CopyFiles */,
 				CD06EEA2225F858A00165111 /* NSDictionary+YSRemove.h in CopyFiles */,
@@ -164,6 +167,8 @@
 		CD06EE80225F827B00165111 /* YSLCProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLCProgressHUD.m; sourceTree = "<group>"; };
 		CD06EE82225F827B00165111 /* YSMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSMBProgressHUD.m; sourceTree = "<group>"; };
 		CD06EE83225F827B00165111 /* YSMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSMBProgressHUD.h; sourceTree = "<group>"; };
+		CDF47C27230A18A6008D4293 /* UIView+YSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSUtility.m"; sourceTree = "<group>"; };
+		CDF47C28230A18A6008D4293 /* UIView+YSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YSUtility.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +280,8 @@
 		CD06EE4E225F827A00165111 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				CDF47C28230A18A6008D4293 /* UIView+YSUtility.h */,
+				CDF47C27230A18A6008D4293 /* UIView+YSUtility.m */,
 				CD06EE4F225F827A00165111 /* UIView+YSCornerShadow.m */,
 				CD06EE50225F827A00165111 /* UIView+YSLayout.h */,
 				CD06EE51225F827A00165111 /* UIView+YSLayout.m */,
@@ -468,6 +475,7 @@
 				CD06EE8B225F827B00165111 /* UIAlertView+YSAlertWithMessage.m in Sources */,
 				CD06EE9F225F827B00165111 /* YSMBProgressHUD.m in Sources */,
 				CD06EE97225F827B00165111 /* YSUtils.m in Sources */,
+				CDF47C29230A18A7008D4293 /* UIView+YSUtility.m in Sources */,
 				CD06EE9A225F827B00165111 /* YSFormat.m in Sources */,
 				CD06EE86225F827B00165111 /* NSDictionary+YSSerialize.m in Sources */,
 				CD06EE93225F827B00165111 /* NSString+YSUtility.m in Sources */,
